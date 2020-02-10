@@ -120,7 +120,7 @@ proto.tryCreatePlot = function() {
             STATIC_CONTEXT = getContext({
                 canvas: STATIC_CANVAS,
                 preserveDrawingBuffer: true,
-                premultipliedAlpha: true,
+                premultipliedAlpha: false,
                 antialias: true
             });
             if(!STATIC_CONTEXT) {
